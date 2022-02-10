@@ -1,0 +1,66 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.contenedor {
+    width: 100vw;
+    height: 95vh;
+    background: linear-gradient(to bottom right, #0C6CB0, #1C8AC3);
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 1%;
+    grid-area: 
+        "texto texto imagen imagen"
+        "texto texto imagen imagen"
+        "texto texto imagen imagen"
+        "texto texto imagen imagen"
+    ;
+}
+
+.students {
+    position: absolute;
+    left: 60%;
+    top: 15%;
+    grid-area: "imagen";
+}
+
+h3 {
+    color:#FFDB9E;
+}
+
+p {
+    color:#56A0D3;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+.texto {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    grid-area: "texto";
+}
+
+.aclaracion {
+    color: #378AC4;
+    font-size: 13px;
+}
+
+.study {
+    width: 60%;
+    height: 5vh;
+    border-color: #FFFFFF;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #75ABD2;
+    font-size: 18px;
+}
+
+.study:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
